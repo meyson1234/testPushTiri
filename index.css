@@ -1,0 +1,79 @@
+#root{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.button {
+    min-width: 100px;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin: 0;
+    font: inherit;
+    border: solid transparent;
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+    letter-spacing: 0;
+    background-color: #e8e8e8;
+    border-radius: 7px;
+    transition: all .12s ease-out;
+    border-width: 1px;
+    display: flex;
+    text-decoration: none;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 16px;
+}
+form {
+    margin: 0;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    row-gap: 8px;
+}
+.inputTextall {
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: inherit;
+    appearance: none;
+    background: none;
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border: 0;
+    transition: .1s ease-out;
+    transition-property: color;
+    margin: 0;
+    padding: 20px 12px 18px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #222;
+    border: 2px solid grey;
+}
+#timer{
+    background: burlywood;
+    padding: 2px;
+    border-radius: 9px;
+    color: #171813;
+}
+
+.colorRed { 
+    background-color: #d36a6a;
+}
+.cplorGreen {
+    background-color: #2aa568;
+}
